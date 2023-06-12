@@ -26,6 +26,8 @@ if (isset($_SESSION['nombreusuario'])){
         <!-- Para colocar ícono a la pestaña de página web -->
         <link rel="shortcut icon" href="../images/Logo.svg">
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+
+        <link rel="shortcut icon" href="../../images/gustitos.jpg">
     </head>
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">

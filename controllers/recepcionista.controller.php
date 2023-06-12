@@ -3,7 +3,7 @@
 require_once '../models/Recepcionista.php';
 require_once '../vendor/autoload.php';
 use Mike42\Escpos\Printer;
-use Mike42\Escpos\PrintConnectors\WindowsPrintConnector;
+use Mike42\Escpos\PrintConnectors\NetworkPrintConnector;
 
 if (isset($_POST['operacion'])) {
     $recepcionista = new Recepcionista();
@@ -85,7 +85,7 @@ if (isset($_POST['operacion'])) {
                 
         
                 // Crear instancia de Printer y conectar con la impresora
-                $connector = new WindowsPrintConnector('EPSON TM-T20IIIL Receipt');
+                $connector = new NetworkPrintConnector('localhost',3306);
                 $printer = new Printer($connector);
         
                 // Enviar contenido del ticket a imprimir

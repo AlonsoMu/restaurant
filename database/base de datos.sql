@@ -1,4 +1,4 @@
-
+CREATE DATABASE restaurante
 
 CREATE TABLE mozos(
 	idmozo	INT AUTO_INCREMENT 	PRIMARY KEY,

@@ -20,10 +20,10 @@ if (isset($_SESSION['nombreusuario'])){
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Horas Extras</title>
+        <title>Sistema Gustitos</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <link rel="shortcut icon" href="../images/Logo.svg">
+        <link rel="shortcut icon" href="../../images/gustitos.jpg">
         
         
         <!-- Bootstrap CSS v5.2.1 -->
@@ -98,7 +98,7 @@ if (isset($_SESSION['nombreusuario'])){
                         <h1 class="mt-4">Monto Total de Pedidos</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="nose.php">Principal</a></li>
-                            <li class="breadcrumb-item active">Horas Extras</li>
+                            <li class="breadcrumb-item active">Contabilidad</li>
                         </ol>
                         
                         <div class="container">
